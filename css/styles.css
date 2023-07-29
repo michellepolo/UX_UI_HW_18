@@ -96,6 +96,14 @@ header{
 .icons img{
     width: 100%;
 }
+.icons-sm{
+    height: 10%;
+    width: 50px;
+    margin: 0 10px;
+}
+.icons-sm img{
+    width: 100%;
+}
 h1{
     color: black;
     text-align: center;
@@ -170,11 +178,16 @@ p, .me li{
     align-items: center;
     display: inline-block;
 }
-.memoji{
+.image-memoji{
+    width: 100%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .center {
     padding: 20px;
+    text-align: center;
+}
+.letsconnect{
     text-align: center;
 }
