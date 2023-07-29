@@ -1,0 +1,180 @@
+.logo{
+    width: 30%;
+    height: auto;
+}
+nav{
+    display:flex
+}
+#skillsNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10skillscircle.png");
+    background-size: 100px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#storyNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10browncircle.png");
+    background-size: 100px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contactNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10orangecircle.png");
+    background-size: 100px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#workNav{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/Ellipse\ 10pinkcircle.png");
+    background-size: 100px;
+    color: #707070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-image: url("../images/Vector\ 1navbackground.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    display: flex;
+    width: 100%;
+}
+
+.about{
+    background-image: url("../images/mp-logo-pattern\ 2backgroundpattern.png");
+    background-position: center;
+    background-repeat: repeat-x;
+    background-size: 50%;
+    display: flex;
+    justify-content: center;
+}
+.story{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+.photo{
+    border: #F5E1E3 10px solid;
+}
+.who{
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+.information{
+    text-align: center;
+}
+.skill{
+    text-align: center;
+}
+.icons{
+    width: 50px;
+    margin: 0 20px;
+}
+.icons img{
+    width: 100%;
+}
+h1{
+    color: black;
+    text-align: center;
+    font-size: 36px;
+    font-family: 'Playfair Display', serif;
+}
+.information{
+    font-size: 24px;
+    font: bold;
+}
+footer ul{
+    width: 100%;
+    background-color:#F5F5F1;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+footer li{
+    list-style: none;
+    padding: 40px;
+}
+.flexcontainer{
+    display: flex;
+    justify-content: center;
+}
+.me{
+    display: flex;
+    justify-content: center;
+}
+.projects{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+.projectsimage{
+    width: 60%;
+}
+.projectsimage img{
+    width: 100%;
+    height: auto;
+}
+.projectstext{
+    width: 40%;
+    padding: 20px;
+}
+#mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2{
+    color: black;
+    font-size: 28px;
+    font-family: 'Playfair Display', serif;
+}
+button{
+    background-color:#F4C8B7;
+    border-radius:20px;
+    border: none;
+    padding: 16px 32px;
+    cursor: pointer;
+}
+p, .me li{
+    color: black;
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
+}
+.connect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    display: inline-block;
+}
+.memoji{
+    display: flex;
+    justify-content: center;
+}
+.center {
+    padding: 20px;
+    text-align: center;
+}
