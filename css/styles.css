@@ -112,6 +112,7 @@ h1 {
     text-align: center;
     font-size: 32px;
     font-family: 'Playfair Display', serif;
+    font-weight: bold;
 }
 .information {
     font-size: 24px;
@@ -168,7 +169,7 @@ footer li {
         }
 h2{
     color: black;
-    font-size: 26px;
+    font-size: 24px;
     font-family: 'Playfair Display', serif;
 }
 button{
@@ -228,3 +229,21 @@ p, .me li {
     width: 20px;
     height: auto;
 }
+@media screen and (max-width: 800px) {
+    .skillstable {
+      width: 100%;
+      font-size: 14px;
+      background-color: red;
+    }
+}
+.skillstable {
+    width: 100%;
+    padding: 15px;
+  }
+  
+  .skill-image {
+    max-width: 100%;
+    height: auto; 
+    max-height: 150px;
+  }
+  
