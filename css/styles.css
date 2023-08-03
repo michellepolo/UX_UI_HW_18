@@ -1,11 +1,11 @@
-.logo{
+.logo {
     width: 30%;
     height: auto;
 }
-nav{
+nav {
     display:flex
 }
-#skillsNav{
+#skillsNav {
     height: 100px;
     width: 100px;
     display: flex;
@@ -16,7 +16,7 @@ nav{
     color: white;
     font-family: Arial, Helvetica, sans-serif;
 }
-#storyNav{
+#storyNav {
     height: 100px;
     width: 100px;
     display: flex;
@@ -27,7 +27,7 @@ nav{
     color: #707070;
     font-family: Arial, Helvetica, sans-serif;
 }
-#contactNav{
+#contactNav {
     height: 100px;
     width: 100px;
     display: flex;
@@ -38,7 +38,7 @@ nav{
     color: #707070;
     font-family: Arial, Helvetica, sans-serif;
 }
-#workNav{
+#workNav {
     height: 100px;
     width: 100px;
     display: flex;
@@ -49,7 +49,7 @@ nav{
     color: #707070;
     font-family: Arial, Helvetica, sans-serif;
 }
-header{
+header {
     justify-content: center;
     align-items: center;
     background-image: url("../images/Vector\ 1navbackground.png");
@@ -60,7 +60,7 @@ header{
     width: 100%;
 }
 
-.about{
+.about {
     background-image: url("../images/mp-logo-pattern\ 2backgroundpattern.png");
     background-position: center;
     background-repeat: repeat-x;
@@ -69,55 +69,55 @@ header{
     justify-content: center;
     text-align: center;
 }
-.story{
+.story {
     color: black;
     text-align: center;
     font-size: 36px;
     font-family: 'Playfair Display', serif;
 }
-.photo{
+.photo {
     border: #F5E1E3 10px solid;
 }
-.who{
+.who {
     font-size: 36px;
     font-family: 'Playfair Display', serif;
 }
-.toolstable{
+.toolstable {
     padding: 20px;
     width: 90%;
  }
-.information{
+.information {
     text-align: center;
 }
-.skill{
+.skill {
     text-align: center;
 }
-.icons{
+.icons {
     width: 50px;
     margin: 0 20px;
 }
-.icons img{
+.icons img {
     width: 100%;
 }
-.icons-sm{
+.icons-sm {
     height: 10%;
     width: 50px;
     margin: 0 10px;
 }
-.icons-sm img{
+.icons-sm img {
     width: 100%;
 }
-h1{
+h1 {
     color: black;
     text-align: center;
-    font-size: 28px;
+    font-size: 32px;
     font-family: 'Playfair Display', serif;
 }
-.information{
+.information {
     font-size: 24px;
     font: bold;
 }
-footer ul{
+footer ul {
     width: 100%;
     background-color:#F5F5F1;
     justify-content: center;
@@ -125,33 +125,33 @@ footer ul{
     align-items: center;
     padding-inline-start: 0px;
 }
-footer li{
+footer li {
     list-style: none;
     padding: 40px;
 }
-.flexcontainer{
+.flexcontainer {
     display: flex;
     justify-content: center;
 }
-.me{
+.me {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.projects{
+.projects {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
 }
-.projectsimage{
+.projectsimage {
     width: 60%;
 }
-.projectsimage img{
+.projectsimage img {
     width: 100%;
     height: auto;
 }
-.projectstext{
+.projectstext {
     width: 40%;
     padding: 20px;
 }
@@ -168,7 +168,7 @@ footer li{
         }
 h2{
     color: black;
-    font-size: 28px;
+    font-size: 26px;
     font-family: 'Playfair Display', serif;
 }
 button{
@@ -179,18 +179,18 @@ button{
     cursor: pointer;
     font-size: 14px;
 }
-p, .me li{
+p, .me li {
     color: black;
     font-size: 14px;
     font-family: 'Work Sans', sans-serif;
 }
-.connect{
+.connect {
     display: flex;
     flex-direction: column;
     align-items: center;
     display: inline-block;
 }
-.image-memoji{
+.image-memoji {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -200,10 +200,10 @@ p, .me li{
     padding: 20px;
     text-align: center;
 }
-.letsconnect{
+.letsconnect {
     text-align: center;
 }
-#socialmedia{
+#socialmedia {
     display: flex;
     justify-content: center;
 }
@@ -223,9 +223,8 @@ p, .me li{
   .me {
     width: 100%;
   }
-
-@media screen and (max-width: 600px) {
-    body{
-        background-color: red;
-    }
+.icons-skills {
+    max-width: 50%;
+    width: 20px;
+    height: auto;
 }
